@@ -19,9 +19,14 @@
    streamlit run app.py
    ```
 
-4. For email reports the following environment variables are required:
-   - `GMAIL_USER` / `GMAIL_PASSWORD`
-   - `EMPLOYER_EMAIL` (address that receives the monthly summary)
+
+## Supabase Database Setup
+
+Before running the dashboard, create a new project in Supabase and execute the
+SQL script in `db/supabase_schema.sql` using the Supabase SQL editor (or `psql`).
+This script creates the `employees` table required by the application.
+=======
+
 
 ## Features
 
