@@ -19,6 +19,12 @@
    streamlit run app.py
    ```
 
+## Supabase Database Setup
+
+Before running the dashboard, create a new project in Supabase and execute the
+SQL script in `db/supabase_schema.sql` using the Supabase SQL editor (or `psql`).
+This script creates the `employees` table required by the application.
+
 ## Features
 
 - Admin login (Supabase Auth)
