@@ -1,0 +1,13 @@
+{
+  "name": "epf-etf-payroll-system",
+  "version": "1.0.0",
+  "description": "Simple payroll dashboard example",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
