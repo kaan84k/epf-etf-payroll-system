@@ -7,12 +7,12 @@
    pip install -r requirements.txt
    ```
 
-2. Set Streamlit secrets (`.streamlit/secrets.toml`):
+2. Copy the example secrets and environment files and fill in your values:
+   ```bash
+   cp .streamlit/secrets.toml.example .streamlit/secrets.toml
+   cp .env.example .env
    ```
-   [default]
-   SUPABASE_URL = "your_supabase_url"
-   SUPABASE_KEY = "your_supabase_service_role_key"
-   ```
+   Edit the files to include your Supabase and email credentials.
 
 3. Run the app:
    ```
